@@ -12,6 +12,13 @@
     .navbar-nav .nav-item.active .nav-link {
         color: #fff; /* Set the active text color (white) */
     }
+    .navbar-nav.nav-link.active:hover {
+      color: #fff !important;
+  }
+
+    .nav-link.active{
+      color: white !important;
+    }
 
     .carousel-inner img {
       width: 100%;
@@ -30,10 +37,99 @@
       border-radius: 10px; /* Example border radius */
     }
 
+    .card-text{
+      color: #fff;
+    }
+
+
     #pengumuman-spmb{
       padding: 50px;
       margin: 15px;
     }
+    
+    #card-spmb{
+      background-color:#164863 ;
+    }
+
+    .img-fluid.rounded-start{
+      height: 176px;
+    }
+
+    .card.body{
+      background-color:#164863 ;
+    }
+
+    .card-title{
+      color: #fff !important;
+    }
+
+    .text-body-secondary{
+      color: #fff !important;
+    }
+
+    .bg-primary.text-white.text-center.text-lg-start{
+      background-color:#164863 !important ;
+    }
+
+    .linkedin{
+      width:35px;
+      margin-bottom: 5px;
+      font-style: none;
+    }
+
+    .insta{
+      width:35px;
+      margin-bottom: 5px;
+    }
+
+    .twt{
+      width: 35px;
+      margin-bottom: 5px;
+      font-style: none;
+    }
+
+    .youtube{
+      width: 35px;
+      margin-bottom: 5px;
+      font-style: none; 
+    }
+
+    .judul-pengumuman{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .judul{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
+
+
+    #footer{
+      margin-top: 20px;
+    }
+
+
+    a:hover {
+      color: #164863; /* Ganti dengan warna yang diinginkan saat hover */
+      text-decoration: underline; /* Ganti dengan efek lain yang diinginkan, misalnya underline */
+  }
+
+  .card.w-75.mb-3{
+    margin-left: 25px;
+    width: 1210px !important;
+  }
+
+  .card-title.lembaga{
+    color: black !important;
+  }
+  
+  .card-text{
+    color: black;
+  }
+    
 
 
 
